@@ -3,9 +3,9 @@
 Download music from your favourite Youtube channels!
 
 # Requirements:
-- youtube-dl: ```sudo apt install youtube-dl```
-- ffmpeg: ```sudo apt install ffmpeg```
-- BeautifulSoup: ```sudo pip3 install BeautifulSoup4```
+- youtube-dl: ```pip install youtube-dl```
+- ffmpeg: ```pip install ffmpeg```
+- BeautifulSoup: ```pip install BeautifulSoup4```
 
 # Usage: 
   Add your Youtube channels to 'ytm-channels.conf' file
@@ -24,6 +24,6 @@ optional arguments:
 ```
 
 # Command Line Example:
-    $ python3 ytm -a
-    $ python3 ytm -a -n 10
-    $ python3 ytm -u AllTrapNation -n 10
+    $ python ytm -a
+    $ python ytm -a -n 10
+    $ python ytm -u AllTrapNation -n 10
