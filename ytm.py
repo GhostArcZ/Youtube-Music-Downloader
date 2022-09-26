@@ -4,7 +4,6 @@
 
 import argparse
 import sys
-from bs4 import BeautifulSoup
 import youtube_dl
 
 NUM_MUSIC = 5 # Default number of music per channel
